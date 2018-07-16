@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gerador de nomes não convencionais para universos fantásticos</title>
+
+        <script src="../index.js" type="text/javascript"></script>
+        <script type="text/javascript">
+			function writeName(name) {
+				const span = document.createElement('span');
+				span.innerText = name;
+				document.body.appendChild(span);
+			}
+
+            setInterval(() => writeName(geradorDeNome()), 1250);
+		</script>
+		<style type="text/css">
+			span {
+				display: block;
+				font-family: arial;
+			}
+		</style>
+	</head>
+	<body>
+
+	</body>
+</html>
